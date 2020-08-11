@@ -12,6 +12,24 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/particuliers/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/particuliers/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/entreprises/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/entreprises/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/collectivites/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/collectivites/tsconfig.spec.json"
     }
 ]
 }
