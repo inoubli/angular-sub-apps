@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
-import { TestComponent } from './test/test.component';
+import { SharedModule } from './../../../../src/app/shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -14,14 +15,11 @@ import { TestComponent } from './test/test.component';
     Comp1Component,
     Comp2Component,
     NavComponent,
-    TestComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
-  exports: [
-    TestComponent
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

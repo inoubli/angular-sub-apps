@@ -8,19 +8,22 @@ import { CollectivitesSharedModule } from "../../projects/collectivites/src/app/
 import { EntreprisesSharedModule } from "../../projects/entreprises/src/app/app.module";
 import { NavComponent } from './nav/nav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     DashboardComponent,
+    // TestComponent,
     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CollectivitesSharedModule.forRoot(),
     EntreprisesSharedModule.forRoot(),
-    CollectivitesSharedModule
+    SharedModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
