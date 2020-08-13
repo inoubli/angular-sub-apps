@@ -30,6 +30,12 @@
     },
     {
       "path": "./projects/collectivites/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/my-library/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/my-library/tsconfig.spec.json"
     }
 ]
 }

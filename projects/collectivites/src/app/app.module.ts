@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
 import { SharedModule } from './../../../../src/app/shared/shared.module';
+import { MyLibraryModule } from '../../../my-library/src/lib/my-library.module';
 
 
 @NgModule({
@@ -19,7 +20,9 @@ import { SharedModule } from './../../../../src/app/shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    MyLibraryModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
