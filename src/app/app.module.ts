@@ -9,6 +9,7 @@ import { EntreprisesSharedModule } from "../../projects/entreprises/src/app/app.
 import { NavComponent } from './nav/nav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SharedModule } from './shared/shared.module';
+import { Comp1Component } from 'projects/collectivites/src/app/comp1/comp1.component';
 
 
 @NgModule({
@@ -16,7 +17,6 @@ import { SharedModule } from './shared/shared.module';
     AppComponent,
     NavComponent,
     DashboardComponent,
-    // TestComponent,
     ],
   imports: [
     BrowserModule,
@@ -26,7 +26,8 @@ import { SharedModule } from './shared/shared.module';
     SharedModule    
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  // entryComponents:[Comp1Component]
 })
 export class AppModule { }
 
